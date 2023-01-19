@@ -1,0 +1,453 @@
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Swap our for actual link-->
+    <link rel="canonical" href="https://www.website.com/">
+
+    <meta name="description" content="Meta description for the page">
+    <meta name="keywords" content="">
+
+    <!--Social Media Display-->
+    <meta property="og:title" content="Title that shows up on google searches">
+    <meta property="og:description" content="Meta description for the page">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="Official link for that page (https://www.site.com)">
+    <meta property="og:image" content="assets/images/social.jpg">
+    <meta property="og:image:secure_url" content="assets/images/social.jpg">
+
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png?v1">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicons/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Preload -->
+    
+    <link rel="preload" as="image" href="assets/images/logo-light.png">
+    <link rel="preload" as="font" type="font/woff2" href="assets/fonts/roboto-v29-latin-regular.woff2" crossorigin="">
+    <link rel="preload" as="font" type="font/woff2" href="assets/fonts/roboto-v29-latin-700.woff2" crossorigin="">
+
+    <link rel="stylesheet" href="critical.css">
+    <link rel="stylesheet" href="stylesheet.css" media="print" onload="this.media='all';this.onload=null;">
+    <link rel="stylesheet" href="mediaqueries.css" media="print" onload="this.media='all';this.onload=null;">
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+      </style>
+
+
+    <!-- Loading in page specific CSS sheets from css block -->
+    
+
+    <!--Put analytics tag here at the bottom to prevent it from render blocking-->
+
+    <title>Company Name | What They Do | Town and State</title>
+</head>
+<body class="">
+    <!--Screen reader skip main nav-->
+    <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
+
+    <!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<div id="navigation">
+    <div aria-hidden="true" class="background-color-div">
+        <!--This div is used to overcome a z-index issue where the open
+            #navbar-menu is on top of the #navigation. This bar places itself 
+            the #navbar-menu so that menu appears behind the #navigation
+        -->
+    </div>
+    <div class="container">
+   
+
+        <!--Main Nav-->
+        <nav id="navbar-menu">
+            <ul>
+                <li><a class="active" href="/">Home</a></li>
+                <li><a class="" href="/about">About Us</a></li>
+                <li><a class="" href="/projects">Projects</a></li>
+                <li><a class="" href="/reviews">Reviews</a></li>
+                <li><a class="" href="/blog">Blog</a></li>
+                <li><a class="" href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+
+
+        <!--Mobile Nav toggle-->
+        <button class="hamburger-menu">
+            <span aria-hidden="true"></span>
+        </button>
+    </div>
+</div>
+
+<!-- 
+This is to pre load any image above the fold, like hero section backgrounds.
+If you do not have any images in your hero section that you need to preload, remove this 
+block
+-->
+
+
+<link rel="preload" as="image" href="/assets/images/landing.jpg">
+
+
+
+<link rel="stylesheet" href="/css/critical.css">
+<link rel="stylesheet" href="/css/local.css">
+
+<!--Defer loading the whole page css-->
+<link rel="stylesheet" href="/css/local.css" media="all" onload="this.media='all'; this.onload=null;">
+
+
+<!-- Enter html code below -->
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero">
+    <div class="cs-container">
+        <div class="cs-flex-group">
+            <h1 class="cs-title">Classic. English. Ice  cream.</h1>
+            <p class="cs-text">
+                Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius. Nibh tortor id aliquet lectus proin nibh condimentum.
+            </p>
+            <button href="" class="cs-button-solid">
+                <a>Visit Us</a>
+            </button>
+            <button href="" class="cs-button-transparent">
+                <a>Contact</a>
+            </button>
+        </div>
+    </div>
+
+
+    
+
+
+</section>
+                                
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services" class="services">
+
+    <div class="bg-card">
+    <!-- Get Icons From flaticon.com -->
+    <div class="card">
+        <picture>
+            <img aria-hidden="true" decoding="async" src="ice-cream-1.png" alt="appliance" width="48" height="48">
+        </picture>
+        <h2>The Champion!</h2>
+        <p>
+            This Month's Favourite Dessert
+        </p>
+    </div>
+    </div>
+
+</section>
+
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs">
+    <div class="cs-container">
+  
+
+        <div class="sbs-text">
+
+            <h1>All our changes come from our buyers.🌿We deliver simple, tasty ice-cream,☀️the way mama would make it. Join the club!🎉</h1>
+
+
+        </div>
+
+
+    </div>
+    
+</section>
+    <hr class="divider-1">
+
+<!-- ============================================ -->
+<!--            Extra Content To Rank             -->
+<!-- ============================================ -->
+    <main id="main">
+<div class="content-main">
+
+<section id="sbs-r">
+    <div class="cs-container">
+        
+        <h2>All Year Round Favourites!</h2>
+                
+        <div class="card-1-wrapper">
+
+
+            <div id="cards">
+            <div class="card-1">
+                <img src="cream-1.jpg">
+                <h3>Cocaoa Truffle</h3>
+            </div>
+
+        <div class="card-1">
+                <img src="cream-2.jpg">
+                <h3>Mango Splash</h3>
+        </div>
+            </div>
+
+
+            <div id="cards">
+         <div class="card-1">
+                <img src="cream-3.jpg">
+                <h3>Scottish Cream</h3>
+         </div>  
+                
+        <div class="card-1">
+        <img src="cream-4.jpg">
+        <h3>Sprinkle Delight</h3>
+        </div>
+            </div>
+            
+        </div>
+
+
+
+       
+    </div>
+</section>
+
+
+<div class="banner-1">
+<h2 class="h2-banner-1">"Delicious"</h2>
+</div>
+
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="sbs-g">
+    <div class="cs-container">
+        <!-- Left Image Section -->
+        <div class="cs-left">
+            <picture class="cs-picture cs-picture1" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="cream.jpg">
+                <source media="(min-width: 601px)" srcset="cream.jpg">
+                <img loading="lazy" decoding="async" src="cream.jpg" alt="house" width="522" height="581">
+            </picture>
+        </div>
+        <!-- Right Content Section-->
+        <div class="cs-right">
+            <h2 class="cs-title">Simple dessert; vibrant memories</h2>
+            <p class="cs-text">
+                A faint scent. A soft crunch. Flavourful creme melting upon the tongue: all things that plunge one back into a childhood summer, or an icy winter, or a day in which you craved simple ice-cream that forever burrowed within your heart. The wise person chooses experience. This is that experience.
+            </p>
+            <button href="" class="cs-button-solid">
+                <a>Visit Us</a>
+            </button>
+        
+               
+    </div>
+</section>
+
+
+
+
+ 
+
+
+
+    </div>
+</section>
+
+
+<!-- ============================================ -->
+<!--                   Opening                    -->
+<!-- ============================================ -->
+
+<div class="opening">
+
+    <h2>Open 12am till 9pm</h2>
+
+</div>
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews">
+    <div class="cs-container">
+        <span class="cs-topper">Speak, speak!</span>
+        <h2 class="cs-title">But What Do <span>You</span> Think?...</h2>
+
+        <div class="reviews-wrapper">
+            <div class="review-card">
+            <h3>"Possibly the best icecream in all of Britain..."</h3>
+            <h2>-John Doe</h2>
+            </div>
+
+            <div class="review-card">
+                <h3>"Gorgeous ice cream. Kid's can't get enough; what do they put in it!"</h3>
+                <h2>-Tomaz Ritchie</h2>
+                </div>
+             <div class="review-card">
+            <h3>"The customer service was great. Sally, the owner, is an absolute legend."</h3>
+            <h2>-Marie Flowers</h2>
+            </div>
+
+         <div class="review-card">
+            <h3>"I've always loved a good ice cream. When I was 10 yrs of age, I began eating ice-cream. Since then I've never stopped. One summer I consumed five tubs of ice cream in the course of three weeks. The next winter, however, I remember my mother bundling me up in warm clothes - yet still I craved my ice cream. Sally'sCreme has taken me back to so many beautiful moments, its hard to believe. I have a sweet tooth. I know what good ice cream is. And this? This is not good but oustanding. Highest recommendation!"</h3>
+            <h2>-Paul Bob</h2>
+            </div>
+
+         <div class="review-card">
+            <h3>"Simple, good stuff, no added sugars and whatever they add to rob you of your money. A real treat."</h3>
+            <h2>-Sarah Simmons</h2>
+            </div>
+
+        </div>
+
+
+    </div>
+</section>
+
+
+<!-- ============================================ -->
+<!--                  Subscribe                   -->
+<!-- ============================================ -->
+
+<section id="subscribe">
+    <div class="cs-container">
+
+        <h2 class="subscribe-h2">Don't Miss A Beat</h2>
+
+        <div class="form-wrapper">
+        <form action="action_page.php">
+          
+            <div class="container" style="background-color:white">
+              <input type="text" placeholder="Name" name="name" required>
+              <input type="text" placeholder="Email address" name="mail" required>
+              <label>
+                <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+              </label>
+            </div>
+          
+            <div class="form-container">
+              <input type="submit" value="Subscribe">
+            </div>
+          </form>
+        </div>
+
+
+
+
+
+    </div>
+</section>
+
+
+
+
+
+
+
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
+
+<section id="cta">
+    <div class="cs-container">
+        <h1 class="title">Sally'sCreme</h1>
+        <p>
+            We put the joy back in dessert. Choose us for everything sweet, nourishing, and iconic.
+        </p>
+        <button href="" class="cs-button-solid">
+            <a>Visit Us</a>
+        </button>
+    </div>
+  
+</section>
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script></main>
+    <!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+<footer id="footer">
+    <div class="container">
+        <div class="left-section">
+            <a class="logo" href="/"><img loading="lazy" decoding="async" src="ice-cream-cone.png" alt="logo" width="264" height="78"></a>
+        </div>
+        <div class="right-section">
+            <div class="lists">
+                <ul>
+                    <li><h2>Information</h2></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/testimonials">Reviews</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+                <ul>
+                    <li><h2>Services</h2></li>
+                    <li>Service1</li>
+                    <li>Service2</li>
+                    <li>Service4</li>
+                    <li>Service5</li>
+                </ul>
+                <ul>
+                    <li><h2>Contact</h2></li>
+                    <li><a href="/contact">First Address Line<br>Denver CO 80206</a></li>
+                    <li><a href="tel:555-779-4407">T: (555) 779-4407</a></li>
+                    <li><a href="mailto:email@email.com">Click to Email</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="credit">
+        <span>Designed and Hand Coded by</span>
+        <a href="" target="_blank" rel="noopener">Your Company Name</a>
+        <span class="copyright"> Copyright 2021 - Present</span>
+    </div>
+</footer>
+
+    <script defer="" src="nav-js.js"></script>
+    <script defer="" src=""></script>
+
+    <!--
+        This script adds a class to the body after scrolling 100px
+        and we used these body.scroll styles to create some on scroll 
+        animations with the navbar
+    -->
+    <script defer="">
+        document.addEventListener('scroll', (e) => { 
+            const scroll = document.documentElement.scrollTop;
+            if(scroll >= 100){
+        document.querySelector('body').classList.add('scroll')
+            } else {
+            document.querySelector('body').classList.remove('scroll')
+            }
+        });
+    </script>
+
+
+<iframe id="netlify-identity-widget" title="Netlify identity widget" style="position: fixed; top: 0; left: 0; border: none; width: 100%; height: 100%; overflow: visible; background: transparent; display: none; z-index: 99; " src="about:blank"></iframe></body></html>

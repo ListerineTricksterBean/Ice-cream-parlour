@@ -1,0 +1,625 @@
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0em) {
+    #sbs {
+      padding: var(--sectionPadding);
+      background-color: #ffe06e;
+    }
+    #sbs .cs-container {
+      width: 100%;
+      max-width: 80rem;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      row-gap: 2.5rem;
+    }
+   
+
+    #sbs .sbs-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #sbs h1 {
+        font-size: 45px;
+        font-weight: 900;
+        text-align: center;
+        line-height: 1.3em;
+        max-width: 1300px;
+        color: black;
+    }
+
+    .divider-1 {
+        border: 3px #03cd69 dashed;
+        width: 100%;
+    }
+
+
+
+}
+  /*-- -------------------------- -->
+  <---       Side By Side         -->
+  <--- -------------------------- -*/
+  
+  /* Mobile - 360px */
+  @media only screen and (min-width: 0em) {
+    #sbs-r {
+      padding: var(--sectionPadding);
+    }
+    #sbs-r .cs-container {
+        padding: 0 10px;
+        margin: auto;
+        position: relative;
+        width: 100%;
+        max-width: 450px;
+    }
+    #sbs-r h2 {
+        font-size: 42px;
+        color: black;
+        text-align: center;
+        padding-top: 20px;
+    }
+    #sbs-r .card-1-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        padding-top: 30px;
+    }
+    #sbs-r .card-1 {
+        border: 1px black solid;
+        margin-bottom: 20px;
+        background-color: #ffd53e;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #000;
+        border-radius: 5px;
+        box-shadow: 7px 7px 0 0 #000;
+    }
+    #sbs-r .card-1 img {
+        height: auto;
+        width: 300px;
+        border-radius: 5px;
+    }
+    #sbs-r .card-1 h3 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+
+   .banner-1 {
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 2px solid #000;
+    border-bottom: 10px solid #000;
+    background-color: #fd4b38;
+    width: 100%;
+   }
+
+    .h2-banner-1 {
+      font-size: 55px;
+      text-align: center;
+      font-family: sans-serif;
+      color: #ffffff;
+    }
+
+
+
+
+
+
+
+
+
+}
+  /*-- -------------------------- -->
+  <---          Gallery           -->
+  <--- -------------------------- -*/
+  /* Mobile - 360px */
+@media only screen and (min-width: 0em) {
+
+  #sbs-g {
+    padding: 3em 0 3em 0;
+  }
+  #sbs-g .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    row-gap: 2.5rem;
+    padding: 0 10px;
+  }
+  #sbs-g .cs-left {
+    /* scaling the font size with the view width */
+    font-size: min(2.31vw, .7em);
+    /* using ems so we can use font size to scale the whole section */
+    width: 39.4375em;
+    height: 27.75em;
+    position: relative;
+  }
+  #sbs-g .cs-picture {
+    border-radius: 1.5em;
+    /* clips img tag corners */
+    overflow: hidden;
+    position: absolute;
+    display: block;
+  }
+  #sbs-g .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* makes image act like a background image */
+    object-fit: cover;
+  }
+  #sbs-g .cs-picture1 {
+    width: 32.625em;
+    height: 26.3125em;
+    left: 0;
+    top: 0;
+    border-radius: 46% 54% 54% 46% / 39% 34% 66% 61%;
+    border-bottom: 5px yellow solid;
+    border-left: 2px yellow solid;
+    padding: 0;
+    margin: 0;
+  }
+  #sbs-g .cs-right {
+    margin: auto;
+    max-width: 33.875rem;
+  }
+  #sbs-g .cs-title {
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: left;
+    max-width: 50rem;
+    margin: 0 auto 1rem;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #sbs-g .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: left;
+    width: 100%;
+    max-width: 46.875rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    color: var(--bodyTextColor);
+  }
+
+  #sbs-g .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    width: 11.25rem;
+    text-decoration: none;
+    margin: 0 0.5rem 1rem 0.5rem;
+    background-color: #03cd69;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    border: 2px solid #000;
+    box-shadow: 10px 10px;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+      margin-bottom: 15px;
+      transition: box-shadow 300ms ease, transform 500ms ease;
+  }
+  #sbs-g .cs-button-solid:hover {
+    box-shadow: none;
+    border: 2px solid #000;
+	box-shadow: 1px 1px;
+  }
+  #sbs-g .cs-button-solid:active {
+    transform: scale(0.9);
+  }
+
+}
+
+/* tablet - 768px */
+@media only screen and (min-width: 768px) {
+  #sbs-g .cs-container {
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    gap: 3.25rem;
+    padding-left: 35px;
+  }
+  #sbs-g .cs-left {
+    font-size: min(1.2vw, 1em);
+    flex: none;
+  }
+  #sbs-g .cs-right {
+    margin: 0;
+  }
+
+  #sbs-g .cs-title {
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: left;
+    max-width: 50rem;
+    margin: 0 auto 1rem;
+    color:#000;
+    position: relative;
+  }
+  #sbs-g .cs-text {
+    font-size: larger;
+    line-height: 1.5em;
+    text-align: left;
+    width: 100%;
+    max-width: 46.875rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    color: rgb(33, 33, 33);
+  }
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64em) {
+  #sbs-g .cs-container {
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    gap: 3.25rem;
+    padding-left: 35px;
+  }
+  #sbs-g .cs-left {
+    font-size: min(1.2vw, 1em);
+    flex: none;
+  }
+  #sbs-g .cs-right {
+    margin: 0;
+  }
+
+  #sbs-g .cs-title {
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: left;
+    max-width: 50rem;
+    margin: 0 auto 1rem;
+    color:#000;
+    position: relative;
+  }
+  #sbs-g .cs-text {
+    font-size: larger;
+    line-height: 1.5em;
+    text-align: left;
+    width: 100%;
+    max-width: 46.875rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    color: rgb(33, 33, 33);
+  }
+}
+
+  /*-- -------------------------- -->
+  <---          Opening           -->
+  <--- -------------------------- -*/
+
+  .opening {
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 2px solid #000;
+    border-bottom: 10px solid #000;
+    background-color: #fd4b38;
+    width: 100%;
+  }
+
+  .opening h2 {
+    font-size: 55px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #ffffff;
+  }
+
+
+
+
+
+
+  /*-- -------------------------- -->
+  <---          Reviews           -->
+  <--- -------------------------- -*/
+  /* Mobile - 360px */
+  @media only screen and (min-width: 0em) {
+    #reviews {
+      /* Centers the button */
+      text-align: center;
+      padding: var(--sectionPadding);
+      background-color: snow;
+    }
+    #reviews .cs-container {
+      width: 100%;
+      max-width: 69rem;
+      margin: auto;
+    }
+    #reviews .cs-topper {
+      font-size: 15px;
+      line-height: 1.2em;
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: .1em;
+      font-weight: 700;
+      color: #fd4b38;
+      margin-bottom: 1rem;
+      display: block;
+    }
+    #reviews .cs-title {
+      font-size: 50px;
+      font-weight: 900;
+      line-height: 1.2em;
+      text-align: center;
+      max-width: 43.75rem;
+      margin: 0 auto 1rem;
+      color: black;
+      position: relative;
+    }
+    #reviews .cs-title span {
+      font-style: italic;
+      font-family: cursive;
+    }
+    #reviews .reviews-wrapper {
+      border: 2px solid #000;
+      border-radius: 10px;
+      background-color: #75bbff;
+      box-shadow: 2px 2px 0 0 #000;
+      padding-top: 60px;
+padding-bottom: 40px;
+    }
+    #reviews .review-card {
+      text-align: center;
+    }
+    #reviews .review-card h3 {
+      width: 90%;
+      text-align: center;
+      position: relative;
+      left: 15px;
+    }
+    #reviews .review-card h2 {
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-family: sans-serif;
+      font-weight: 900;
+    }
+    
+  }
+
+  /* Tablet - 768px */
+  @media only screen and (min-width: 48em) {
+    #reviews .cs-card-group {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+    #reviews .cs-item {
+      /* reset margin so it won't interfere with flexbox */
+      margin: 0;
+    }
+  }
+  /* Dark Mode */
+  @media only screen and (min-width: 0em) {
+    body.dark-mode #reviews .cs-title,
+    body.dark-mode #reviews .cs-text,
+    body.dark-mode #reviews .cs-item-p,
+    body.dark-mode #reviews .cs-reviewer {
+      color: var(--bodyTextColorWhite);
+    }
+    body.dark-mode #reviews .cs-item {
+      background: var(--medium);
+    }
+    body.dark-mode #reviews .cs-desc {
+      color: var(--primaryLight);
+    }
+  }
+
+
+
+    /*-- -------------------------- -->
+  <---          Subscribe           -->
+  <--- -------------------------- -*/
+
+  #subscribe {
+    padding-bottom: 5em;
+    background-color: snow;
+  }
+
+  #subscribe .cs-container {
+    padding: 0 10px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+  }
+  #subscribe .subscribe-h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  /* Style the form element with a border around it */
+  #subscribe form {
+  padding-top: 20px;
+}
+
+/* Add some padding and a grey background color to containers */
+#subscribe .form-container {
+  padding: 20px;
+}
+
+/* Style the input elements and the submit button */
+#subscribe input[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 2px dashed #000;
+border-radius: 10px;
+padding-bottom: 40px;
+color: black;
+font-size: 16px;
+}
+
+/* Add margins to the checkbox */
+#subscribe input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+#subscribe input[type=submit] {
+  color: white;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  border: 2px solid #000;
+  box-shadow: 7px 7px 0 0 #000;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+border-radius: 10px;
+color: black;
+}
+
+#subscribe input[type=submit]:hover {
+  box-shadow: 1px 1px 0 0 #000;
+  transition: 0.2s;
+}
+  /*-- -------------------------- -->
+  <---    Final Call To Action    -->
+  <--- -------------------------- -*/
+  /* Mobile */
+  @media only screen and (min-width: 0em) {
+    #cta {
+      position: relative;
+      padding: 3.125rem 0;
+      background-color: #ffc900;
+    }
+    #cta:before {
+      content: '';
+      position: absolute;
+      display: block;
+      height: 100%;
+      width: 100%;
+      background: #000;
+      opacity: .7;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+    #cta .cs-container {
+      text-align: center;
+      padding: 0 10px;
+      margin: auto;
+      position: relative;
+      width: 100%;
+      max-width: 450px;
+    }
+    #cta .title {
+      font-weight: 900;
+      font-size: min(9vw, 3rem);
+      line-height: 1.20833333;
+      color: rgb(0, 0, 0);
+      position: relative;
+      margin-bottom: 2.25rem;
+      text-align: center;
+    }
+    #cta p {
+      color: rgb(0, 0, 0);
+      text-align: center;
+      opacity: 1;
+      margin: auto;
+      margin-bottom: 2.25rem;
+      width: 96%;
+      max-width: 37.375rem;
+    }
+    #cta .cs-button-solid {
+      font-size: 1rem;
+      /* 46px - 56px */
+      width: 11.25rem;
+      text-decoration: none;
+      margin: 0 0.5rem 1rem 0.5rem;
+      background-color: #03cd69;
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      border-radius: 10px;
+      border: 2px solid #000;
+      box-shadow: 10px 10px;
+      padding: 10px 40px;
+      cursor: pointer;
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+        margin-bottom: 15px;
+        transition: box-shadow 300ms ease, transform 500ms ease;
+    }
+    #cta .cs-button-solid:hover {
+      box-shadow: none;
+      border: 2px solid #000;
+    box-shadow: 1px 1px;
+    }
+    #cta .cs-button-solid:active {
+      transform: scale(0.9);
+    }
+  }
+  /* Small Desktop */
+  @media only screen and (min-width: 64em) {
+    #cta {
+      padding: 10.5rem 0;
+    }
+  }
+  /* Large Desktop */
+  @media only screen and (min-width: 1300px) {
+    #cta {
+      position: relative;
+      margin-top: 6.25rem;
+      clip-path: polygon(57% 5%, 77% 6%, 100% 6%, 100% 70%, 100% 100%, 50% 100%, 0 100%, 0% 70%, 0 3%, 24% 5%);
+    }
+  
+    #cta .container {
+      width: 90.0625%;
+      margin: auto;
+    }
+    #cta picture {
+      width: 90.0625%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    #cta picture:before {
+      content: '';
+      position: absolute;
+      display: block;
+      height: 100%;
+      width: 100%;
+      background: #000;
+      opacity: .7;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+  }
+  /* Dark Mode */
+  @media only screen and (min-width: 0em) {
+    body.dark-mode #cta:after {
+      display: none;
+    }
+  }
+  

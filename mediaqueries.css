@@ -1,0 +1,553 @@
+
+  /*-- -------------------------- -->
+  <---          Services          -->
+  <--- -------------------------- -*/
+  /* tablet */
+  @media only screen and (min-width: 768px) {
+    .bg-card {
+      border-radius: 50px;
+      margin: auto;
+      margin-top: -10.4375em;
+      position: relative;
+      z-index: 100;
+      background: #ffee9b;
+      width: 40%;
+      max-width: 20.5em;
+      padding: 4.125em 2.25em;
+      border-top: 0.375em solid #fd4b38;
+      border-bottom: 0.375em solid #fd4b38;
+      box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+      margin-bottom: 3.125em;
+    }
+    .services .card {
+      display: block;
+      width: 100%;
+      max-width: 22.3125em;
+      margin: auto;
+      margin-bottom: 3.125em;
+    }
+    .services .card:last-of-type {
+      margin-bottom: 0;
+    }
+    .services .card picture {
+      background: rgb(242, 255, 0);
+      -webkit-box-shadow: 0px 4px 4px 2px rgb(0 0 0 / 55%);
+    box-shadow: 0px 4px 5px 5px rgb(229, 255, 0);
+      width: 3.5em;
+      height: 3.5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      margin-bottom: 1.4375em;
+      border-radius: 36% 64% 52% 48% / 59% 50% 50% 41%;
+    }
+    .services .card picture:hover {
+      background: rgb(242, 255, 0);
+      -webkit-box-shadow: 0px 4px 4px 2px rgb(0 0 0 / 55%);
+    box-shadow: 0px 4px 30px 50px rgb(229, 255, 0);
+      width: 5.5em;
+      height: 5.5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      margin-bottom: 1.4375em;
+      border-radius: 50%;
+      transition: ease-in-out 0.2s;
+    }
+    .services .card picture img {
+      width: 9em;
+      height: 9em;
+    }
+    .services .card picture img:hover {
+      width: 5em;
+      height: 5em;
+      filter: brightness(3);
+      transition: 0.7s;
+    }
+    .services .card h2 {
+      text-align: center;
+      font-size: 3em;
+      line-height: 1.35em;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 0.65em;
+      z-index: 5;
+    }
+    .services .card p {
+      text-align: center;
+      line-height: 1.33333333em;
+      width: 100%;
+      opacity: .7;
+      color: black;
+      font-style: italic;
+      font-size: larger;
+    }
+}
+
+/* small desktop */
+@media only screen and (min-width: 1024px) {
+    .bg-card {
+      border-radius: 50px;
+      margin: auto;
+      margin-top: -10.4375em;
+      position: relative;
+      z-index: 100;
+      background: #ffee9b;
+      width: 70%;
+      max-width: 30.5em;
+      padding: 4.125em 2.25em;
+      border-top: 0.375em solid #fd4b38;
+      border-bottom: 0.375em solid #fd4b38;
+      box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+      margin-bottom: 3.125em;
+    }
+}
+/* large desktop */
+@media only screen and (min-width: 1300px) {
+    .bg-card {
+      border-radius: 15px;
+      margin: auto;
+      margin-top: -10.4375em;
+      position: relative;
+      z-index: 100;
+      background: #ffee9b;
+      width: 70%;
+      max-width: 40.5em;
+      padding: 4.125em 2.25em;
+      border-top: 0.375em solid #fd4b38;
+      border-bottom: 0.375em solid #fd4b38;
+      box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+      margin-bottom: 3.125em;
+    }
+}
+
+
+
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+/* small desktop */
+@media only screen and (min-width: 880px) {
+    #sbs h1 {
+        font-size: 50px;
+        font-weight: 900;
+        text-align: center;
+        line-height: 1.3em;
+        max-width: 1300px;
+        color: black;
+        padding-bottom: 20px;
+    }
+
+    .divider-1 {
+        border: 5px #2f2f2f dashed;
+        width: 100%;
+    }
+}
+/* larger desktop */
+@media only screen and (min-width: 1024px) {
+    #sbs h1 {
+        font-size: 60px;
+        font-weight: 900;
+        text-align: center;
+        line-height: 1.3em;
+        max-width: 1300px;
+        color: black;
+        padding-bottom: 20px;
+    }
+}
+  /*-- -------------------------- -->
+  <---       Side By Side         -->
+  <--- -------------------------- -*/
+  /* desktop */
+  @media only screen and (min-width: 880px) {
+    #sbs-r {
+      padding: var(--sectionPadding);
+    }
+    #sbs-r .cs-container {
+        padding: 0 10px;
+        margin: auto;
+        position: relative;
+        width: 100%;
+        max-width: 450px;
+    }
+    #sbs-r h2 {
+        font-size: 47px;
+        color: black;
+        text-align: center;
+        padding-top: 20px;
+    }
+    #sbs-r .card-1-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+        padding-top: 30px;
+        padding-left: 10px;
+    }
+    #sbs-r .card-1 {
+        border: 1px black solid;
+        margin-bottom: 20px;
+        background-color: #ffd53e;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #000;
+        border-radius: 5px;
+        box-shadow: 7px 7px 0 0 #000;
+        margin-right: 25px;
+    }
+    #sbs-r .card-1 img {
+        height: auto;
+        width: 400px;
+        border-radius: 5px;
+    }
+    #sbs-r .card-1 h3 {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+    }
+  }
+
+  /** desktop larger **/
+
+    @media only screen and (min-width: 1024px) {
+        #sbs-r .card-1-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            position: relative;
+            padding-top: 30px;
+        }
+        #sbs-r .card-1 {
+            border: 1px black solid;
+            margin-bottom: 25px;
+            background-color: #ffd53e;
+            border-style: solid;
+            border-width: 2px;
+            border-color: #000;
+            border-radius: 5px;
+            box-shadow: 7px 7px 0 0 #000;
+            margin-right: 25px;
+        }
+        #sbs-r .card-1 img {
+            height: auto;
+            width: 450px;
+            border-radius: 5px;
+        }
+    }
+
+
+/**** sbs tablet 768px ****/
+
+@media only screen and (min-width: 768px) {
+#sbs .cs-title {
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 1.2em;
+  text-align: left;
+  max-width: 50rem;
+  margin: 0 auto 1rem;
+  color:#000;
+  position: relative;
+}
+#sbs .cs-text {
+  font-size: larger;
+  line-height: 1.5em;
+  text-align: left;
+  width: 100%;
+  max-width: 46.875rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  color: rgb(33, 33, 33);
+}
+}
+
+
+  /*-- -------------------------- -->
+  <---          Reviews           -->
+  <--- -------------------------- -*/
+  /* desktop - 360px */
+  @media only screen and (min-width: 1024px) {
+
+    #reviews .cs-topper {
+      font-size: 1px;
+      line-height: 1.2em;
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: .1em;
+      font-weight: 700;
+      color: #fd4b38;
+      margin-bottom: 1rem;
+      display: block;
+    }
+
+
+    #reviews .cs-title {
+      font-size: 60px;
+      margin-bottom: 30px;
+    }
+   
+    #reviews .reviews-wrapper {
+      border: 2px solid #000;
+      border-radius: 10px;
+      background-color: #75bbff;
+      box-shadow: 2px 2px 0 0 #000;
+      padding-top: 60px;
+padding-bottom: 40px;
+    }
+    #reviews .review-card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    #reviews .review-card h3 {
+      width: 90%;
+      text-align: center;
+      position: relative;
+      left: 15px;
+      font-size: 22px;
+    }
+    #reviews .review-card h2 {
+      font-size: 40px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-family: sans-serif;
+      font-weight: 900;
+    }
+    
+  }
+
+  /* Tablet - 768px */
+  @media only screen and (min-width: 48em) {
+    #reviews .cs-card-group {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+    #reviews .cs-item {
+      /* reset margin so it won't interfere with flexbox */
+      margin: 0;
+    }
+  }
+  /* Dark Mode */
+  @media only screen and (min-width: 0em) {
+    body.dark-mode #reviews .cs-title,
+    body.dark-mode #reviews .cs-text,
+    body.dark-mode #reviews .cs-item-p,
+    body.dark-mode #reviews .cs-reviewer {
+      color: var(--bodyTextColorWhite);
+    }
+    body.dark-mode #reviews .cs-item {
+      background: var(--medium);
+    }
+    body.dark-mode #reviews .cs-desc {
+      color: var(--primaryLight);
+    }
+  }
+
+
+
+    /*-- -------------------------- -->
+  <---          Subscribe           -->
+  <--- -------------------------- -*/
+
+  #subscribe {
+    padding-bottom: 5em;
+  }
+
+  #subscribe .cs-container {
+    padding: 0 10px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+  }
+  #subscribe .subscribe-h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  /* Style the form element with a border around it */
+  #subscribe form {
+  padding-top: 20px;
+}
+
+/* Add some padding and a grey background color to containers */
+#subscribe .form-container {
+  padding: 20px;
+}
+
+/* Style the input elements and the submit button */
+#subscribe input[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 2px dashed #000;
+border-radius: 10px;
+padding-bottom: 40px;
+color: black;
+font-size: 16px;
+}
+
+/* Add margins to the checkbox */
+#subscribe input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+#subscribe input[type=submit] {
+  background-color: #ffc900;
+  color: white;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  border: 2px solid #000;
+  box-shadow: 7px 7px 0 0 #000;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+border-radius: 10px;
+color: black;
+}
+
+#subscribe input[type=submit]:hover {
+  box-shadow: 1px 1px 0 0 #000;
+  transition: 0.2s;
+}
+  /*-- -------------------------- -->
+  <---    Final Call To Action    -->
+  <--- -------------------------- -*/
+  /* Mobile */
+  @media only screen and (min-width: 0em) {
+    #cta {
+      position: relative;
+      padding: 3.125rem 0;
+      background-color: #ffc900;
+    }
+    #cta:before {
+      content: '';
+      position: absolute;
+      display: block;
+      height: 100%;
+      width: 100%;
+      background: #000;
+      opacity: .7;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+    #cta .cs-container {
+      text-align: center;
+      padding: 0 10px;
+      margin: auto;
+      position: relative;
+      width: 100%;
+      max-width: 450px;
+    }
+    #cta .title {
+      font-weight: 900;
+      font-size: min(9vw, 3rem);
+      line-height: 1.20833333;
+      color: rgb(0, 0, 0);
+      position: relative;
+      margin-bottom: 2.25rem;
+      text-align: center;
+    }
+    #cta p {
+      color: rgb(0, 0, 0);
+      text-align: center;
+      opacity: 1;
+      margin: auto;
+      margin-bottom: 2.25rem;
+      width: 96%;
+      max-width: 37.375rem;
+    }
+
+    #cta .btn-holder {
+      position: relative;
+      left: 2px;
+      bottom: 3px;
+    }
+
+    #cta #shadow {
+      border-radius: 10px;
+border: 2px solid #000;
+box-shadow: 10px 10px;
+background-color: #03cd69;
+margin-bottom: 15px;
+    }
+    #cta #shadow:hover {
+      border: 2px solid #000;
+box-shadow: 1px 1px;
+    }
+  }
+  /* Small Desktop */
+  @media only screen and (min-width: 64em) {
+    #cta {
+      padding: 10.5rem 0;
+    }
+  }
+  /* Large Desktop */
+  @media only screen and (min-width: 1300px) {
+    #cta {
+      position: relative;
+      margin-top: 6.25rem;
+    }
+    #cta:before {
+      display: none;
+    }
+    #cta:after {
+      content: '';
+      position: absolute;
+      display: block;
+      height: 69.25rem;
+      width: 125rem;
+      background: url("..assets/images/cta-squares.svg");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      opacity: 1;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: -3;
+    }
+    #cta .container {
+      width: 90.0625%;
+      margin: auto;
+    }
+    #cta picture {
+      width: 90.0625%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    #cta picture:before {
+      content: '';
+      position: absolute;
+      display: block;
+      height: 100%;
+      width: 100%;
+      background: #000;
+      opacity: .7;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+  }
+  /* Dark Mode */
+  @media only screen and (min-width: 0em) {
+    body.dark-mode #cta:after {
+      display: none;
+    }
+  }
+  
