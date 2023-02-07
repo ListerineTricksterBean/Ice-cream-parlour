@@ -19,20 +19,6 @@
     <meta property="og:image" content="assets/images/social.jpg">
     <meta property="og:image:secure_url" content="assets/images/social.jpg">
 
-    <!--Favicons-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png?v1">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/assets/favicons/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-
-    <!-- Preload -->
-    
-    <link rel="preload" as="image" href="assets/images/logo-light.png">
-    <link rel="preload" as="font" type="font/woff2" href="assets/fonts/roboto-v29-latin-regular.woff2" crossorigin="">
-    <link rel="preload" as="font" type="font/woff2" href="assets/fonts/roboto-v29-latin-700.woff2" crossorigin="">
-
     <link rel="stylesheet" href="critical.css">
     <link rel="stylesheet" href="stylesheet.css" media="print" onload="this.media='all';this.onload=null;">
     <link rel="stylesheet" href="mediaqueries.css" media="print" onload="this.media='all';this.onload=null;">
@@ -42,16 +28,10 @@
         @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
       </style>
 
-
-    <!-- Loading in page specific CSS sheets from css block -->
-    
-
-    <!--Put analytics tag here at the bottom to prevent it from render blocking-->
-
     <title>Sally'sCreme | Classic Ice Cream Parlour | London, UK</title>
 </head>
 <body class="">
-    <!--Screen reader skip main nav-->
+
     <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
 
     <!-- ============================================ -->
@@ -60,10 +40,7 @@
 
 <div id="navigation">
     <div aria-hidden="true" class="background-color-div">
-        <!--This div is used to overcome a z-index issue where the open
-            #navbar-menu is on top of the #navigation. This bar places itself 
-            the #navbar-menu so that menu appears behind the #navigation
-        -->
+      
     </div>
     <div class="container">
    
@@ -88,26 +65,6 @@
     </div>
 </div>
 
-<!-- 
-This is to pre load any image above the fold, like hero section backgrounds.
-If you do not have any images in your hero section that you need to preload, remove this 
-block
--->
-
-
-<link rel="preload" as="image" href="/assets/images/landing.jpg">
-
-
-
-<link rel="stylesheet" href="/css/critical.css">
-<link rel="stylesheet" href="/css/local.css">
-
-<!--Defer loading the whole page css-->
-<link rel="stylesheet" href="/css/local.css" media="all" onload="this.media='all'; this.onload=null;">
-
-
-<!-- Enter html code below -->
-
 <!-- ============================================ -->
 <!--                    Hero                      -->
 <!-- ============================================ -->
@@ -119,10 +76,10 @@ block
             <p class="cs-text">
                 Tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius. Nibh tortor id aliquet lectus proin nibh condimentum.
             </p>
-            <button href="" class="cs-button-solid">
+            <button aria-label="Visit Us" href="" class="cs-button-solid">
                 <a>Visit Us</a>
             </button>
-            <button href="" class="cs-button-transparent">
+            <button aria-label="Contact" href="" class="cs-button-transparent">
                 <a>Contact</a>
             </button>
         </div>
@@ -142,7 +99,6 @@ block
 <section id="services" class="services">
 
     <div class="bg-card">
-    <!-- Get Icons From flaticon.com -->
     <div class="card">
         <picture>
             <img aria-hidden="true" decoding="async" src="ice-cream-1.png" alt="appliance" width="48" height="48">
@@ -193,12 +149,12 @@ block
 
             <div id="cards">
             <div class="card-1">
-                <img src="cream-1.jpg">
+                <img src="cream-1.jpg" loading="lazy" decoding="async" alt="ice-cream" width="400" height="400">
                 <h3>Cocaoa Truffle</h3>
             </div>
 
         <div class="card-1">
-                <img src="cream-2.jpg">
+                <img src="cream-2.jpg" loading="lazy" decoding="async" alt="ice-cream" width="400" height="400">
                 <h3>Mango Splash</h3>
         </div>
             </div>
@@ -206,12 +162,12 @@ block
 
             <div id="cards">
          <div class="card-1">
-                <img src="cream-3.jpg">
+                <img src="cream-3.jpg" loading="lazy" decoding="async" alt="ice-cream" width="400" height="400">
                 <h3>Scottish Cream</h3>
          </div>  
                 
         <div class="card-1">
-        <img src="cream-4.jpg">
+        <img src="cream-4.jpg" loading="lazy" decoding="async" alt="ice-cream" width="400" height="400">
         <h3>Sprinkle Delight</h3>
         </div>
             </div>
@@ -240,7 +196,7 @@ block
             <picture class="cs-picture cs-picture1" aria-hidden="true">
                 <source media="(max-width: 600px)" srcset="cream.jpg">
                 <source media="(min-width: 601px)" srcset="cream.jpg">
-                <img loading="lazy" decoding="async" src="cream.jpg" alt="house" width="522" height="581">
+                <img loading="lazy" decoding="async" src="cream.jpg" alt="ice-cream" width="522" height="581">
             </picture>
         </div>
         <!-- Right Content Section-->
@@ -249,20 +205,9 @@ block
             <p class="cs-text">
                 A faint scent. A soft crunch. Flavourful creme melting upon the tongue: all things that plunge one back into a childhood summer, or an icy winter, or a day in which you craved simple ice-cream that forever burrowed within your heart. The wise person chooses experience. This is that experience.
             </p>
-            <button href="" class="cs-button-solid">
+            <button aria-label="Visit Us" href="#" class="cs-button-solid">
                 <a>Visit Us</a>
             </button>
-        
-               
-    </div>
-</section>
-
-
-
-
- 
-
-
 
     </div>
 </section>
@@ -340,7 +285,7 @@ block
             </div>
           
             <div class="form-container">
-              <input type="submit" value="Subscribe">
+              <input aria-label="Visit Us" type="submit" value="Subscribe">
             </div>
           </form>
         </div>
@@ -368,25 +313,13 @@ block
         <p>
             We put the joy back in dessert. Choose us for everything sweet, nourishing, and iconic.
         </p>
-        <button href="" class="cs-button-solid">
+        <button aria-label="Visit Us" href="#" class="cs-button-solid">
             <a>Visit Us</a>
         </button>
     </div>
   
 </section>
-
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-<script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script></main>
+</main>
     <!-- ============================================ -->
 <!--                   Footer                     -->
 <!-- ============================================ -->
@@ -432,12 +365,7 @@ block
 
     <script defer="" src="nav-js.js"></script>
     <script defer="" src=""></script>
-
-    <!--
-        This script adds a class to the body after scrolling 100px
-        and we used these body.scroll styles to create some on scroll 
-        animations with the navbar
-    -->
+    
     <script defer="">
         document.addEventListener('scroll', (e) => { 
             const scroll = document.documentElement.scrollTop;
